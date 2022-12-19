@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Score Keeper</title>
+  </head>
+  <body>
+    <main id="main" class="flex">
+      <section class="flex">
+        <img src="" alt="" />
+        <h3 class="main__title">Ping Pong Score Keeper</h3>
+      </section>
+      <section class="container__score">
+        <h1>
+          <span class="score-player-one"></span> to
+          <span class="score-player-two"></span>
+        </h1>
+        <p>Use the buttons to keep score</p>
+      </section>
+      <section class="container__select-games">
+        <label for="select-games">Playing To</label>
+        <select id="select-games">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+        </select>
+      </section>
+      <section class="buttons">
+        <input class="playerOne-Btn btn" type="button" value="+1 Player One" />
+        <input class="playerTwo-Btn btn" type="button" value="+1 Player Two" />
+        <input class="reset-Btn btn" type="button" value="Reset" />
+      </section>
+    </main>
+    <script src="./refactor.js"></script>
+  </body>
+</html>

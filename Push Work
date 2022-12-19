@@ -1,0 +1,5 @@
+- Make the oponents an Array to loop over (when more than 1 oponent)
+- Create a class (Player) so that you can create player objects.
+- Add a functionality for adding multiple players
+- Add a funcitonality of decrementing the score
+- Add a functionality to see past games

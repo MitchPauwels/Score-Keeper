@@ -1,0 +1,22 @@
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+input:disabled {
+  background-color: rgb(240, 231, 231);
+}
+
+input {
+  font-size: 20px;
+}
